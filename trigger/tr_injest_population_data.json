@@ -1,0 +1,17 @@
+{
+	"name": "tr_injest_population_data",
+	"properties": {
+		"annotations": [],
+		"runtimeState": "Stopped",
+		"pipelines": [],
+		"type": "BlobEventsTrigger",
+		"typeProperties": {
+			"blobPathBeginsWith": "/population/blobs/population_by_age.tsv.gz",
+			"ignoreEmptyBlobs": true,
+			"scope": "/subscriptions/56246616-34e9-45d0-b5f5-ca35f0069299/resourceGroups/igm-covid-reporting-rg/providers/Microsoft.Storage/storageAccounts/igmcovidreportingsa",
+			"events": [
+				"Microsoft.Storage.BlobCreated"
+			]
+		}
+	}
+}
