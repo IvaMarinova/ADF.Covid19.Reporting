@@ -1,0 +1,17 @@
+{
+	"name": "tr_injest_ecdc_data",
+	"properties": {
+		"annotations": [],
+		"runtimeState": "Started",
+		"pipelines": [],
+		"type": "ScheduleTrigger",
+		"typeProperties": {
+			"recurrence": {
+				"frequency": "Day",
+				"interval": 1,
+				"startTime": "2024-01-12T14:15:00",
+				"timeZone": "GTB Standard Time"
+			}
+		}
+	}
+}
